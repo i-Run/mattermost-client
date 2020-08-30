@@ -2,7 +2,7 @@
   "name": "mattermost-client",
   "version": "6.2.0",
   "description": "Mattermost client",
-  "main": "./src/client.js",
+  "main": "dist/mattermost-client.js",
   "scripts": {
     "test": "node_modules/.bin/jest",
     "lint": "node_modules/.bin/eslint src"
@@ -22,17 +22,21 @@
   },
   "homepage": "https://github.com/loafoe/mattermost-client#readme",
   "dependencies": {
+    "bufferutil": "^4.0.1",
     "extend": "^3.0.2",
     "https-proxy-agent": "^5.0.0",
     "log": "^1.4.0",
     "request": "^2.88.0",
     "text-encoding": "^0.7.0",
+    "utf-8-validate": "^5.0.2",
     "ws": ">=3.3.1"
   },
   "devDependencies": {
     "eslint": "^7.7.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "jest": "^25.5.4"
+    "jest": "^25.5.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
