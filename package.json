@@ -2,10 +2,11 @@
   "name": "mattermost-client",
   "version": "6.2.0",
   "description": "Mattermost client",
-  "main": "dist/mattermost-client.js",
+  "main": "dist/client.js",
   "scripts": {
     "test": "node_modules/.bin/jest",
-    "lint": "node_modules/.bin/eslint src"
+    "lint": "node_modules/.bin/eslint src",
+    "build": "node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",

@@ -6,9 +6,9 @@ module.exports = {
   mode: 'development',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'mattermost-client.js',
+    filename: 'client.js',
   },
   resolve: {
     extensions: ['.js'],
-},
+  },
 };

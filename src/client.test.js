@@ -3,7 +3,7 @@ jest.mock('ws');
 const requestMock = require('request');
 const WebSocketMock = require('ws');
 
-const Client = require('./client');
+const Client = require('./index');
 const User = require('./user');
 
 const SERVER_URL = 'test.foo.bar';
